@@ -1,0 +1,55 @@
+/*         цифры таймера         */
+
+body {
+    font-size: 18px;
+    font-family: 'Lato Light', sans-serif;
+    color: rgb(216, 207, 207);
+}
+
+.timer {
+    text-align: center;
+    padding-bottom: 10px;
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: rgba(170, 184, 171, 0.5);
+    background-image: linear-gradient(to right, rgba(143, 150, 144, 0.5), rgba(94, 66, 66, 0.5)), url(./images/images21.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    cursor: default;
+}
+
+
+/*       текст под цифрами       */
+
+.value {
+    font-size: 42px;
+    font-family: DS-Digital;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+
+/*      блоки хранящие цифры      */
+
+.field {
+    background-color: rgb(23, 119, 20);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+}
+
+.text {
+    background-color: rgb(65, 128, 60);
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
